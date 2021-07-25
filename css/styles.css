@@ -1,0 +1,196 @@
+:root {
+  --text-color: #212121;
+  --background-color-site: #ffffff;
+  --background-color-blue: #2196f3;
+}
+.body {
+  font-family: Roboto, sans-serif;
+  background-color: var(background-color-site);
+  letter-spacing: 0.03em;
+}
+.list,
+.features,
+.about {
+  list-style: none;
+}
+/* Навигация */
+.navigation .link {
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.navigation .link:hover,
+.navigation .link:focus {
+  color: var(--background-color-blue);
+}
+
+/* Logo */
+.logo {
+  color: var(--text-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+span {
+  color: var(--background-color-blue);
+}
+/* переход на страницы */
+.page .link.current {
+  color: var(--background-color-blue);
+}
+.connection .link {
+  color: #757575;
+}
+/* футер */
+
+.contacts {
+  background: #2f303a;
+  color: var(--background-color-site);
+  text-indent: 50px;
+}
+.contacts .logo {
+  color: var(--background-color-site);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.direction {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* 
+.direction-adress {
+  color: var(--background-color-site);
+}  */
+.direction-mail,
+.direction-phone {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+/* кнопки работ */
+
+.button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.7;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background: var(--background-color-blue);
+}
+.list-images {
+  list-style: none;
+}
+.list-images h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.list p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+/* index */
+.title {
+  color: var(--background-color-site);
+  background: #2f303a;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.order {
+  color: var(--background-color-site);
+  background: var(--background-color-blue);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.features h3 {
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features p {
+  color: #757575;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+h2 {
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team h3 {
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+}
+.team p {
+  color: #757575;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+}
