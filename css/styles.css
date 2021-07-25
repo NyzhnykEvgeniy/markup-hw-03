@@ -17,7 +17,7 @@
 /* Навигация */
 
 .page-header {
-  background-color: #757575;
+  /* background-color: #757575; */
 }
 
 /* .container {
@@ -36,7 +36,7 @@
   padding-left: 15px;
   padding-right: 15px;
   height: 80px;
-  background-color: #71c6d1;
+  /* background-color: #71c6d1; */
   display: flex;
   align-items: center;
 }
@@ -80,7 +80,7 @@ span {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
   /* margin-right: 50px; */
 }
 
