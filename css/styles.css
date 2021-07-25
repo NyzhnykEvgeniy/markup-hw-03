@@ -141,10 +141,7 @@ span {
   margin: 0px;
   margin-top: 9px;
 }
-/* 
-.direction-adress {
-  color: var(--background-color-site);
-}  */
+
 .direction-mail,
 .direction-phone {
   font-style: normal;
@@ -155,8 +152,48 @@ span {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
+/* Наши работы */
+.main {
+  margin: 0px auto;
 
+  width: 1170px;
+  height: 1360px;
+}
+
+.filter {
+  /* padding-left: 495px;
+  padding-right: 494px; */
+  margin: 0px;
+  padding: 0px;
+  margin-top: 93px;
+  display: flex;
+}
+.first {
+  width: 73px;
+  height: 38px;
+  padding: 6px 22px;
+}
+.second {
+  width: 128px;
+  height: 38px;
+}
+.third {
+  width: 145px;
+  height: 38px;
+}
+.fourth {
+  width: 103px;
+  height: 38px;
+}
+.fifth {
+  width: 130px;
+  height: 38px;
+}
 /* кнопки работ */
+
+.filter li:not(:last-child) {
+  margin-right: 8px;
+}
 
 .button {
   font-family: inherit;
@@ -179,6 +216,7 @@ span {
 }
 .list-images {
   list-style: none;
+  padding-left: 0px;
 }
 .list-images h3 {
   font-style: normal;
