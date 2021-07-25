@@ -163,9 +163,11 @@ span {
 .filter {
   /* padding-left: 495px;
   padding-right: 494px; */
-  margin: 0px;
+  justify-content: center;
   padding: 0px;
   margin-top: 93px;
+  width: 611px;
+  height: 54px;
   display: flex;
 }
 .first {
