@@ -7,6 +7,7 @@
   font-family: Roboto, sans-serif;
   background-color: var(background-color-site);
   letter-spacing: 0.03em;
+  width: 1600px;
 }
 .list,
 .features,
@@ -14,6 +15,32 @@
   list-style: none;
 }
 /* Навигация */
+
+.page-header {
+  background-color: #757575;
+}
+
+/* .container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1600px;
+  /* height: 80px;
+  background-color: #71c6d1;
+  display: flex;
+} */
+
+.navigation {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 80px;
+  background-color: #71c6d1;
+  display: flex;
+  align-items: center;
+}
+
 .navigation .link {
   color: var(--text-color);
   font-style: normal;
@@ -44,12 +71,39 @@ span {
   color: var(--background-color-blue);
 }
 /* переход на страницы */
+
+.page {
+  display: flex;
+  margin-left: 93px;
+}
+.page .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  outline: 1px solid tomato;
+  /* margin-right: 50px; */
+}
+
+.page .item:not(:last-child) {
+  margin-right: 50px;
+}
 .page .link.current {
   color: var(--background-color-blue);
 }
 .connection .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: #757575;
 }
+.connection {
+  display: flex;
+  margin-left: auto;
+}
+.connection .item:not(:last-child) {
+  margin-right: 50px;
+}
+
 /* футер */
 
 .contacts {
@@ -126,14 +180,19 @@ span {
   letter-spacing: 0.03em;
 }
 /* index */
+.main-title {
+  text-align: center;
+}
+
 .title {
+  margin-top: 0px;
+  margin-bottom: 30px;
   color: var(--background-color-site);
   background: #2f303a;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -144,9 +203,6 @@ span {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 
