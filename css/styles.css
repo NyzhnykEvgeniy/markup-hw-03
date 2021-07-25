@@ -7,6 +7,8 @@
   font-family: Roboto, sans-serif;
   background-color: var(background-color-site);
   letter-spacing: 0.03em;
+  margin-left: auto;
+  margin-right: auto;
   width: 1600px;
 }
 .list,
@@ -15,30 +17,23 @@
   list-style: none;
 }
 /* Навигация */
-
-.page-header {
-  /* background-color: #757575; */
-}
-
-/* .container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1600px;
-  /* height: 80px;
-  background-color: #71c6d1;
-  display: flex;
-} */
-
-.navigation {
+.nav {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   height: 80px;
-  /* background-color: #71c6d1; */
   display: flex;
   align-items: center;
+}
+.navigation {
+  width: 1600px;
+  height: 80px;
+  margin-bottom: 50px;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
 }
 
 .navigation .link {
@@ -106,12 +101,21 @@ span {
 
 /* футер */
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .contacts {
+  padding-top: 60px;
+  width: 1600px;
+  height: 252px;
   background: #2f303a;
   color: var(--background-color-site);
-  text-indent: 50px;
+  /* text-indent: 50px; */
 }
 .contacts .logo {
+  padding-left: 215px;
   color: var(--background-color-site);
   font-style: normal;
   font-weight: bold;
@@ -120,11 +124,22 @@ span {
   letter-spacing: 0.03em;
 }
 .direction {
+  margin-top: 20px;
+  padding-left: 215px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+.cont {
+  margin: 0px;
+  padding-left: 0px;
+  list-style: none;
+}
+.cont li:not(:first-child) {
+  margin: 0px;
+  margin-top: 9px;
 }
 /* 
 .direction-adress {
@@ -181,13 +196,18 @@ span {
 }
 /* index */
 .main-title {
+  width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  background: #2f303a;
 }
 
 .title {
-  margin-top: 0px;
-  margin-bottom: 30px;
-  color: var(--background-color-site);
+  padding: 199px 447px 30px 457px;
+  margin: 0px;
+  /* margin-bottom: 30px; */
   background: #2f303a;
   font-style: normal;
   font-weight: 900;
@@ -195,18 +215,43 @@ span {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: var(--background-color-site);
 }
 .order {
+  padding: 11px 32px;
+  min-width: 200px;
   color: var(--background-color-site);
   background: var(--background-color-blue);
   font-style: normal;
   font-weight: bold;
+  border: none;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  border-radius: 4px;
 }
-
+.features {
+  margin-top: 34px;
+  margin-bottom: 94px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.features li {
+  width: 270px;
+  height: 101px;
+}
+.features li:not(:last-child) {
+  width: 270px;
+  height: 101px;
+  margin-right: 30px;
+}
 .features h3 {
+  margin: 0px;
+  margin-bottom: 10px;
   color: var(--text-color);
   font-style: normal;
   font-weight: bold;
@@ -216,12 +261,71 @@ span {
   text-transform: uppercase;
 }
 .features p {
+  margin: 0px;
   color: #757575;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+/* Чем мы занимаемся */
+.activities {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.activities h2 {
+  margin: 0px;
+  margin-bottom: 50px;
+}
+.about {
+  padding-left: 0px;
+  display: flex;
+
+  margin-bottom: 94px;
+}
+.about li:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* Наща команда */
+
+.team {
+  height: 648px;
+  background: #f5f4fa;
+}
+/* .team li {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+} */
+.dream-team {
+  padding-left: 215px;
+  padding-right: 215px;
+  margin: 0px;
+  display: flex;
+  width: 1200px;
+}
+.dream-team li {
+  margin-left: auto;
+  margin-right: auto;
+
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  list-style: none;
+}
+.dream-team li:not(:last-child) {
+  margin-right: 30px;
+}
+.team h2 {
+  margin: 0px;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 h2 {
   color: var(--text-color);

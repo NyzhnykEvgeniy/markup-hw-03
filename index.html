@@ -16,20 +16,22 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="body">
-    <header class="page-header">
+    <header>
       <nav class="navigation">
-        <a href="./index.html" class="logo"><span>Web</span>Studio</a>
-        <ul class="page list">
-          <li class="item"><a href="./index.html" class="link current">Студия</a></li>
-          <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
-          <li class="item"><a href="./" class="link">Контакты</a></li>
-        </ul>
-        <ul class="connection list">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
-          </li>
-          <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-        </ul>
+        <div class="nav">
+          <a href="./index.html" class="logo"><span>Web</span>Studio</a>
+          <ul class="page list">
+            <li class="item"><a href="./index.html" class="link current">Студия</a></li>
+            <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
+            <li class="item"><a href="./" class="link">Контакты</a></li>
+          </ul>
+          <ul class="connection list">
+            <li class="item">
+              <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+            </li>
+            <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main>
@@ -37,9 +39,8 @@
         <h1 class="title">Эффективные решения для вашего бизнеса</h1>
         <button class="order">Заказать услугу</button>
       </section>
-
+      <!-- Особености -->
       <section>
-        <h2>Особенности</h2>
         <ul class="features">
           <li>
             <h3>Внимание к деталям</h3>
@@ -63,7 +64,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="activities">
         <h2>Чем мы занимаемся</h2>
         <ul class="about">
           <li><img src="./images/img.jpg" alt="разработка" width="370" /></li>
@@ -73,26 +74,42 @@
       </section>
       <section class="team">
         <h2>Наша команда</h2>
-        <img src="./images/team/img.jpg" alt="Игорь Демьяненко" width="270" />
-        <h3>Игорь Демьяненко</h3>
-        <p>Product Designer</p>
-        <img src="./images/team/img1.jpg" alt="Ольга Репина" width="270" />
-        <h3>Ольга Репина</h3>
-        <p>Frontend Developer</p>
-        <img src="./images/team/img2.jpg" alt="Николай Тарасов" width="270" />
-        <h3>Николай Тарасов</h3>
-        <p>Marketing</p>
-        <img src="./images/team/img3.jpg" alt="Михаил Ермаков" width="270" />
-        <h3>Михаил Ермаков</h3>
-        <p>UI Designer</p>
+        <ul class="dream-team">
+          <li>
+            <img src="./images/team/img.jpg" alt="Игорь Демьяненко" width="270" />
+            <h3>Игорь Демьяненко</h3>
+            <p>Product Designer</p>
+          </li>
+          <li>
+            <img src="./images/team/img1.jpg" alt="Ольга Репина" width="270" />
+            <h3>Ольга Репина</h3>
+            <p>Frontend Developer</p>
+          </li>
+          <li>
+            <img src="./images/team/img2.jpg" alt="Николай Тарасов" width="270" />
+            <h3>Николай Тарасов</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img src="./images/team/img3.jpg" alt="Михаил Ермаков" width="270" />
+            <h3>Михаил Ермаков</h3>
+            <p>UI Designer</p>
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="contacts">
       <a href="./index.html" class="logo"><span>Web</span>Studio</a>
       <address class="direction">
-        <p class="direction-adress">г. Киев, пр-т Леси Украинки, 26</p>
-        <p><a href="mailto=info@example.com" class="direction-mail">info@example.com</a></p>
-        <p><a href="tel=+380991111111" class="direction-phone">+38 099 111 11 11</a></p>
+        <ul class="cont">
+          <li class="direction-adress">г. Киев, пр-т Леси Украинки, 26</li>
+          <li>
+            <a href="mailto=info@example.com" class="direction-mail">info@example.com</a>
+          </li>
+          <li>
+            <a href="tel=+380991111111" class="direction-phone">+38 099 111 11 11</a>
+          </li>
+        </ul>
       </address>
     </footer>
   </body>
